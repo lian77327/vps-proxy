@@ -1,0 +1,14 @@
+{
+  "name": "vps-proxy",
+  "version": "1.0.0",
+  "description": "VPS proxy information website",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "lint": "echo 'No linting configured for static HTML'"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
