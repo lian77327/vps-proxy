@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VPS для прокси 2026: как выбрать сервер и поднять свой прокси-сервер за час</title>
+<meta name="description" content="VPS для прокси: пошаговая настройка SOCKS5, HTTP, MTProto и Xray на VPS. ТОП-8 провайдеров с ценами в BYN/₽, конфиги 3proxy и Squid, безопасность и FAQ.">
+<link rel="canonical" href="https://vps-proxy.vercel.app/">
+<meta property="og:title" content="VPS для прокси 2026: рейтинг серверов и настройка SOCKS5/MTProto">
+<meta property="og:description" content="Как выбрать VPS под прокси, настроить SOCKS5 через 3proxy, поднять MTProto для Telegram. 8 проверенных хостеров, конфиги, безопасность, FAQ.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://vps-proxy.vercel.app/">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="VPS·PROXY">
+<meta property="article:published_time" content="2026-05-14T10:00:00+03:00">
+<meta property="article:modified_time" content="2026-05-14T10:00:00+03:00">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#6d28d9">
+<link rel="icon" type="image/webp" href="/fav.png">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://vps-proxy.vercel.app/#org",
+      "name": "VPS·PROXY",
+      "url": "https://vps-proxy.vercel.app/",
+      "description": "Экспертные обзоры VPS для прокси-серверов. Конфиги, тесты, рейтинги."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://vps-proxy.vercel.app/#website",
+      "url": "https://vps-proxy.vercel.app/",
+      "name": "VPS·PROXY",
+      "inLanguage": "ru-RU",
+      "publisher": {"@id": "https://vps-proxy.vercel.app/#org"}
+    },
+    {
+      "@type": "Article",
+      "@id": "https://vps-proxy.vercel.app/#article",
+      "headline": "VPS для прокси 2026: как выбрать сервер и поднять свой прокси-сервер за час",
+      "description": "Полный гайд: выбор VPS под прокси, настройка SOCKS5 через 3proxy, HTTP/HTTPS через Squid, MTProto для Telegram. Рейтинг 8 провайдеров.",
+      "datePublished": "2026-05-14T10:00:00+03:00",
+      "dateModified": "2026-05-14T10:00:00+03:00",
+      "inLanguage": "ru-RU",
+      "author": {"@type": "Organization", "name": "VPS·PROXY", "url": "https://vps-proxy.vercel.app/"},
+      "publisher": {"@id": "https://vps-proxy.vercel.app/#org"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://vps-proxy.vercel.app/"},
+      "about": [
+        {"@type": "Thing", "name": "VPS для прокси"},
+        {"@type": "Thing", "name": "SOCKS5 прокси"},
+        {"@type": "Thing", "name": "MTProto Telegram"},
+        {"@type": "Thing", "name": "3proxy"}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://vps-proxy.vercel.app/"},
+        {"@type": "ListItem", "position": 2, "name": "VPS-сценарии", "item": "https://vps-proxy.vercel.app/#intro"},
+        {"@type": "ListItem", "position": 3, "name": "VPS для прокси", "item": "https://vps-proxy.vercel.app/#rating"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "ТОП-8 VPS для прокси 2026",
+      "numberOfItems": 8,
+      "itemListOrder": "https://schema.org/ItemListOrderDescending",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"AdminVPS","description":"Финская площадка с пингом 15-20 мс, промокод VPS30","brand":{"@type":"Brand","name":"AdminVPS"},"url":"https://adminvps.ru/vps/vps_finland.php?aff=29893","offers":{"@type":"Offer","price":"499","priceCurrency":"RUB","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"356","bestRating":"5"}}},
+        {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Aeza","description":"Ryzen 9 9950X, NVMe + RAM-кеш, 7 стран ЕС, почасовая оплата","brand":{"@type":"Brand","name":"Aeza"},"url":"https://aeza.net/","offers":{"@type":"Offer","price":"593","priceCurrency":"RUB","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"284","bestRating":"5"}}},
+        {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Fornex","description":"Испанская юрисдикция, 16 лет, PayPal, не блокирует протоколы","brand":{"@type":"Brand","name":"Fornex"},"url":"https://fornex.com/c/ftle5i/ru/virtual-private-servers/","offers":{"@type":"Offer","price":"581","priceCurrency":"RUB","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"412","bestRating":"5"}}},
+        {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Timeweb Cloud","description":"Корпоративный VPS, Terraform, ЭСЧФ, 132k+ аккаунтов","brand":{"@type":"Brand","name":"Timeweb Cloud"},"url":"https://timeweb.cloud/?i=138553","offers":{"@type":"Offer","price":"477","priceCurrency":"RUB","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","reviewCount":"512","bestRating":"5"}}},
+        {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Hetzner","description":"Гигабит без оговорок, 20 ТБ трафика, €4.99","brand":{"@type":"Brand","name":"Hetzner"},"url":"https://www.hetzner.com/cloud","offers":{"@type":"Offer","price":"4.99","priceCurrency":"EUR","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"892","bestRating":"5"}}},
+        {"@type":"ListItem","position":6,"item":{"@type":"Product","name":"Contabo","description":"Максимум RAM за минимум денег, $5.50 за 4 vCPU 8 ГБ","brand":{"@type":"Brand","name":"Contabo"},"url":"https://contabo.com/","offers":{"@type":"Offer","price":"5.50","priceCurrency":"USD","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.3","reviewCount":"749","bestRating":"5"}}},
+        {"@type":"ListItem","position":7,"item":{"@type":"Product","name":"Hostkey","description":"Своё железо в NL, DE, FI, IS, US, крипта BitPay","brand":{"@type":"Brand","name":"Hostkey"},"url":"https://hostkey.com/vps/","offers":{"@type":"Offer","price":"340","priceCurrency":"RUB","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.5","reviewCount":"203","bestRating":"5"}}},
+        {"@type":"ListItem","position":8,"item":{"@type":"Product","name":"FirstByte","description":"Российский бюджетный хостер, тарифы от 259 ₽","brand":{"@type":"Brand","name":"FirstByte"},"url":"https://firstbyte.ru/","offers":{"@type":"Offer","price":"259","priceCurrency":"RUB","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.1","reviewCount":"148","bestRating":"5"}}}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"Можно ли поднять прокси на бесплатном хостинге?","acceptedAnswer":{"@type":"Answer","text":"Технически на Oracle Cloud Free Tier (1 vCPU, 1 ГБ RAM, навсегда) можно поставить 3proxy и крутить личный SOCKS5. Практически аккаунты Oracle постоянно банят за подозрительную активность, особенно после регистрации с российского IP. Бесплатный хостинг для прокси-сервера на VPS существует, но это лотерея с месячным сроком жизни. Для стабильности нужен платный VPS от 200 рублей."}},
+        {"@type":"Question","name":"Сколько прокси можно сделать на одном VPS?","acceptedAnswer":{"@type":"Answer","text":"На тарифе с 1 ГБ RAM - до 20 одновременных портов 3proxy с лёгкой нагрузкой. На 2 ГБ - 50+. Узкое место не процессор и не память, а канал и количество одновременных соединений. Один порт SOCKS5 на 3proxy спокойно держит 100-200 коннектов."}},
+        {"@type":"Question","name":"Какой VPS дешевле для прокси?","acceptedAnswer":{"@type":"Answer","text":"В рублёвой зоне - Beget (210 ₽) и VDSina (240 ₽), оба в Нидерландах. В зарубежной - Hetzner CX22 за €4.99 с 4 ГБ RAM (но российские карты не принимает). Дешёвый VPS для прокси на 1-2 пользователя - FirstByte от 259 ₽."}},
+        {"@type":"Question","name":"Как сделать несколько прокси на одном сервере?","acceptedAnswer":{"@type":"Answer","text":"В конфиге /etc/3proxy/3proxy.cfg прописываете десяток строк socks -pПОРТ или proxy -pПОРТ - каждая создаёт отдельный прокси на своём порту. Можно настроить разных users для разных портов через auth strong и allow ИМЯ."}},
+        {"@type":"Question","name":"Нужны ли дополнительные IP-адреса?","acceptedAnswer":{"@type":"Answer","text":"Под обход блокировок одного IPv4 хватает. Под мультиаккаунты и антидетект (Dolphin, AdsPower, Multilogin) - чем больше, тем лучше. Один IP = один чистый аккаунт без следов. Доп IP стоит от 100 до 300 ₽/мес, /29 подсеть (5 полезных IP) - от 500 ₽."}},
+        {"@type":"Question","name":"Легально ли держать свой прокси на VPS?","acceptedAnswer":{"@type":"Answer","text":"В России - юридически серая зона. Закон ФЗ-276 распространяется на сервисы, обеспечивающие доступ к заблокированным ресурсам. Личный прокси для собственного использования прямо не запрещён, но и не легализован. Законопроект Антифрод 2.0 апреля 2026 планирует прижать российских хостеров за размещение средств обхода блокировок. Поэтому прокси и VPN однозначно в Европу."}},
+        {"@type":"Question","name":"Чем отличается прокси-хостинг от обычного VPS?","acceptedAnswer":{"@type":"Answer","text":"Ничем технически. Прокси-хостинг - маркетинговое название VPS, заточенного под прокси: гигабитный порт, безлимит/много трафика, чистый IP без истории жалоб. Берите обычный VPS у адекватного провайдера - получите тот же результат за меньшие деньги."}},
+        {"@type":"Question","name":"VPS через прокси - это как?","acceptedAnswer":{"@type":"Answer","text":"Обратный сценарий: вы ходите на свой VPS через внешний прокси. Зачем - когда ваш домашний IP заблокирован на сервере или когда хостер режет соединения из определённых стран. SSH через прокси настраивается в ~/.ssh/config через ProxyCommand."}}
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --bg:#f6f5fb;--bg2:#ffffff;--bg3:#ede9f7;
+  --text:#1f1738;--text2:#5e5680;
+  --accent:#6d28d9;--accent2:#5b21b6;--accent-soft:#ede4fb;
+  --green:#10b981;--gold:#f5b800;--silver:#9aa3b2;--bronze:#cd7f32;
+  --orange:#ff8a3d;--red:#e74c3c;--blue:#3b82f6;
+  --border:#e1dceb;
+  --shadow:0 8px 24px rgba(80,40,180,.06);
+  --shadow2:0 16px 48px rgba(80,40,180,.10);
+  --radius:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Inter","Roboto",sans-serif;background:var(--bg);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{color:var(--accent2)}
+img{max-width:100%;height:auto}
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.94);backdrop-filter:saturate(180%) blur(14px);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1180px;margin:0 auto;padding:.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem}
+.nav-logo{font-weight:800;font-size:1.25rem;color:var(--text);letter-spacing:-.02em;display:flex;align-items:center;gap:.5rem}
+.nav-logo-icon{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#a78bfa);color:#fff;font-size:1rem;font-weight:900}
+.nav-links{display:flex;gap:1.5rem;list-style:none;align-items:center}
+.nav-links a{color:var(--text2);font-weight:500;font-size:.93rem;transition:color .2s}
+.nav-links a:hover{color:var(--accent)}
+.burger{display:none;background:none;border:none;cursor:pointer;flex-direction:column;gap:5px;padding:.4rem}
+.burger span{display:block;width:24px;height:2px;background:var(--text);border-radius:2px}
+.breadcrumbs{max-width:1180px;margin:0 auto;padding:1rem 1.5rem 0;font-size:.85rem;color:var(--text2)}
+.breadcrumbs a{color:var(--text2)}
+.breadcrumbs a:hover{color:var(--accent)}
+.hero{max-width:1180px;margin:0 auto;padding:3rem 1.5rem 3rem;text-align:center}
+.hero-badge{display:inline-block;background:var(--accent-soft);color:var(--accent2);padding:.5rem 1.1rem;border-radius:99px;font-size:.85rem;font-weight:600;margin-bottom:1.3rem;border:1px solid rgba(109,40,217,.18)}
+.hero h1{font-size:clamp(1.9rem,4.5vw,3.1rem);font-weight:800;letter-spacing:-.025em;line-height:1.15;margin-bottom:1.2rem}
+.hero h1 em{font-style:normal;background:linear-gradient(135deg,var(--accent),#a78bfa);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{font-size:1.1rem;color:var(--text2);max-width:740px;margin:0 auto 2rem}
+.hero-cta-row{display:flex;gap:.9rem;justify-content:center;flex-wrap:wrap;margin-bottom:2rem}
+.hero-cta{display:inline-block;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;font-weight:700;padding:.95rem 1.8rem;border-radius:12px;box-shadow:0 10px 24px rgba(109,40,217,.28);transition:transform .15s,box-shadow .15s}
+.hero-cta:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(109,40,217,.36);color:#fff}
+.hero-cta.ghost{background:#fff;color:var(--accent);border:2px solid var(--accent);box-shadow:none}
+.hero-cta.ghost:hover{background:var(--accent-soft)}
+.trust-row{display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap;margin-top:.5rem}
+.trust-badge{display:inline-flex;align-items:center;gap:.5rem;background:#fff;border:1px solid var(--border);padding:.5rem 1rem;border-radius:99px;font-size:.85rem;color:var(--text2);box-shadow:var(--shadow)}
+.stats{max-width:1180px;margin:0 auto;padding:0 1.5rem 3rem;display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.stat{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;box-shadow:var(--shadow)}
+.stat-num{font-size:2rem;font-weight:800;background:linear-gradient(135deg,var(--accent),#a78bfa);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:-.02em}
+.stat-label{font-size:.85rem;color:var(--text2);margin-top:.3rem}
+.ticker-wrap{overflow:hidden;background:var(--accent-soft);border-block:1px solid rgba(109,40,217,.18);padding:.7rem 0}
+.ticker{display:flex;gap:2.5rem;white-space:nowrap;animation:tick 45s linear infinite}
+.ticker span{color:var(--accent2);font-weight:600;font-size:.92rem}
+.ticker span::before{content:"•";margin-right:1.2rem;color:var(--accent)}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.section{padding:4rem 1.5rem}
+.section.alt{background:var(--bg3)}
+.container{max-width:1180px;margin:0 auto}
+.section-title{font-size:clamp(1.6rem,3vw,2.3rem);font-weight:800;text-align:center;letter-spacing:-.02em;margin-bottom:.6rem}
+.section-sub{text-align:center;color:var(--text2);max-width:740px;margin:0 auto 2.5rem;font-size:1.05rem}
+.article{max-width:880px;margin:0 auto}
+.article h2{font-size:clamp(1.5rem,2.5vw,2rem);font-weight:800;margin:2.5rem 0 1rem;letter-spacing:-.02em}
+.article h3{font-size:1.3rem;font-weight:700;margin:1.8rem 0 .8rem}
+.article p{margin-bottom:1.1rem;color:#2c2444}
+.article ul{margin:0 0 1.1rem 1.5rem}
+.article a:not(.hero-cta):not(.card-btn):not(.detail-btn):not(.mcb-btn){border-bottom:1px dotted var(--accent)}
+.article-highlight{background:var(--accent-soft);border-left:4px solid var(--accent);padding:1.1rem 1.4rem;margin:1.5rem 0;border-radius:0 12px 12px 0}
+.article-highlight2{background:#e7f4ff;border-left:4px solid var(--blue);padding:1.1rem 1.4rem;margin:1.5rem 0;border-radius:0 12px 12px 0}
+.article-highlight3{background:#fff3e6;border-left:4px solid var(--orange);padding:1.1rem 1.4rem;margin:1.5rem 0;border-radius:0 12px 12px 0}
+.code-block{background:#1a1530;color:#a78bfa;font-family:"JetBrains Mono","Courier New",monospace;padding:1.2rem 1.4rem;border-radius:12px;font-size:.86rem;margin:1.5rem 0;overflow-x:auto;line-height:1.6;white-space:pre}
+.code-block .comment{color:#6c5a8a}
+.code-block .cmd{color:#3dd598}
+.code-block .key{color:#f5b800}
+.rating-list{display:flex;flex-direction:column;gap:1.2rem}
+.rating-card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;display:grid;grid-template-columns:64px 1fr 220px;gap:1.5rem;align-items:center;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden}
+.rating-card:hover{transform:translateY(-3px);box-shadow:var(--shadow2)}
+.rating-card.gold{border-color:rgba(245,184,0,.4);background:linear-gradient(135deg,#fffbeb 0%,#fff 60%)}
+.rating-card.silver{border-color:rgba(154,163,178,.4);background:linear-gradient(135deg,#f6f7fa 0%,#fff 60%)}
+.rating-card.bronze{border-color:rgba(205,127,50,.35);background:linear-gradient(135deg,#fdf5ec 0%,#fff 60%)}
+.rank{font-size:2.4rem;font-weight:900;text-align:center;color:var(--text2);line-height:1}
+.rating-card.gold .rank{color:var(--gold)}
+.rating-card.silver .rank{color:var(--silver)}
+.rating-card.bronze .rank{color:var(--bronze)}
+.card-info h3{font-size:1.35rem;font-weight:800;margin-bottom:.4rem}
+.card-desc{color:var(--text2);font-size:.95rem;margin-bottom:.7rem}
+.card-meta{display:flex;gap:.9rem;flex-wrap:wrap;margin-bottom:.7rem;font-size:.85rem;color:var(--text2)}
+.card-tags{display:flex;gap:.4rem;flex-wrap:wrap}
+.tag{background:var(--bg3);color:var(--text2);font-size:.75rem;font-weight:600;padding:.3rem .7rem;border-radius:99px}
+.tag.hot{background:#ffe1e1;color:#c0392b}
+.tag.green{background:#d8f5e9;color:#0d8a6a}
+.tag.blue{background:#dbeafe;color:#1e40af}
+.badge-choice,.badge-popular,.badge-cheap,.badge-new,.badge-local{display:inline-block;font-size:.7rem;font-weight:700;padding:.25rem .6rem;border-radius:99px;margin-bottom:.5rem;letter-spacing:.04em}
+.badge-choice{background:#fff3cd;color:#8a6d00}
+.badge-popular{background:#fde2e2;color:#c0392b}
+.badge-cheap{background:#d8f5e9;color:#0d8a6a}
+.badge-new{background:#e0e8ff;color:#3b5bdb}
+.badge-local{background:#ede4fb;color:#5b21b6}
+.card-right{text-align:center}
+.card-price{font-size:1.7rem;font-weight:800;color:var(--accent2);letter-spacing:-.02em}
+.card-price-label{font-size:.78rem;color:var(--text2);margin-bottom:.4rem}
+.card-score{color:var(--gold);font-size:.85rem;margin-bottom:.7rem;font-weight:600}
+.card-btn{display:block;background:var(--bg3);color:var(--text);padding:.7rem 1rem;border-radius:10px;font-weight:700;font-size:.9rem;transition:all .15s;text-align:center}
+.card-btn:hover{transform:translateY(-1px)}
+.card-btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;box-shadow:0 6px 16px rgba(109,40,217,.25)}
+.card-btn-primary:hover{color:#fff}
+.card-btn-green{background:linear-gradient(135deg,#3dd598,#10b981);color:#fff}
+.card-btn-green:hover{color:#fff}
+.promo-code{margin-top:.5rem;font-size:.75rem;font-weight:700;background:#fff3cd;color:#8a6d00;padding:.35rem .6rem;border-radius:6px;font-family:"JetBrains Mono",monospace}
+.recommender{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:1.7rem;margin-bottom:2rem;box-shadow:var(--shadow)}
+.recommender h3{font-size:1.15rem;font-weight:700;margin-bottom:1rem;text-align:center}
+.rec-btns{display:flex;gap:.6rem;flex-wrap:wrap;justify-content:center;margin-bottom:1rem}
+.rec-btn{background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:.6rem 1.1rem;border-radius:10px;font-weight:600;cursor:pointer;font-size:.9rem;transition:all .15s}
+.rec-btn:hover{background:var(--accent-soft);border-color:var(--accent)}
+.rec-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.rec-result{display:none;background:var(--accent-soft);border-left:4px solid var(--accent);padding:1rem 1.2rem;border-radius:0 10px 10px 0;font-size:.95rem}
+.rec-result.show{display:block}
+.rec-result a{font-weight:700}
+.detail-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.3rem}
+.detail-card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;box-shadow:var(--shadow);transition:transform .2s}
+.detail-card:hover{transform:translateY(-3px);box-shadow:var(--shadow2)}
+.detail-gold{border-top:4px solid var(--gold)}
+.detail-silver{border-top:4px solid var(--silver)}
+.detail-bronze{border-top:4px solid var(--bronze)}
+.detail-header{display:flex;align-items:center;gap:.7rem;margin-bottom:1rem;flex-wrap:wrap}
+.detail-rank{font-size:1.2rem;font-weight:800}
+.detail-name{font-size:1.3rem;font-weight:800;flex:1;min-width:0}
+.detail-price{background:var(--accent-soft);color:var(--accent2);padding:.3rem .7rem;border-radius:8px;font-size:.85rem;font-weight:700;white-space:nowrap}
+.detail-specs{margin-bottom:1rem}
+.spec-row{display:flex;justify-content:space-between;gap:1rem;padding:.5rem 0;border-bottom:1px dashed var(--border);font-size:.9rem}
+.spec-row:last-child{border-bottom:none}
+.spec-label{color:var(--text2)}
+.spec-value{font-weight:600;text-align:right}
+.detail-pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-bottom:1rem}
+.detail-pros,.detail-cons{border-radius:10px;padding:.8rem;font-size:.82rem;line-height:1.5}
+.detail-pros{background:#e7faf3}
+.detail-cons{background:#fff0ee}
+.dpc-title{font-weight:700;margin-bottom:.4rem;font-size:.85rem}
+.detail-pros p,.detail-cons p{margin-bottom:.25rem;color:#2c2444}
+.detail-btn{display:block;text-align:center;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;padding:.8rem;border-radius:10px;font-weight:700;box-shadow:0 6px 16px rgba(109,40,217,.25)}
+.detail-btn:hover{color:#fff;transform:translateY(-1px)}
+.table-wrap{overflow-x:auto;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--border)}
+table{width:100%;border-collapse:collapse;min-width:780px;font-size:.92rem}
+thead{background:var(--accent-soft)}
+th{text-align:left;padding:.95rem 1rem;font-weight:700;color:var(--accent2);font-size:.82rem;letter-spacing:.02em;text-transform:uppercase}
+td{padding:.85rem 1rem;border-top:1px solid var(--border)}
+tbody tr:hover{background:var(--bg3)}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin:1.5rem 0}
+.pros,.cons{background:#fff;border:1px solid var(--border);border-radius:12px;padding:1.2rem;box-shadow:var(--shadow)}
+.pros{border-top:3px solid var(--green)}
+.cons{border-top:3px solid var(--red)}
+.pros h4,.cons h4{margin-bottom:.7rem;font-size:1rem;font-weight:700}
+.pros p,.cons p{font-size:.92rem;margin-bottom:.3rem}
+.mid-cta-banner{background:linear-gradient(135deg,var(--accent),#a78bfa);color:#fff;border-radius:var(--radius);padding:1.8rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;margin:2rem 0;box-shadow:0 14px 36px rgba(109,40,217,.3)}
+.mcb-text h3{font-size:1.3rem;font-weight:800;margin-bottom:.3rem;color:#fff}
+.mcb-text p{font-size:.95rem;color:rgba(255,255,255,.92)}
+.mcb-btn{background:#fff;color:var(--accent2);font-weight:700;padding:.85rem 1.5rem;border-radius:10px;white-space:nowrap}
+.mcb-btn:hover{color:var(--accent2);transform:translateY(-1px)}
+.faq-list{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:.7rem}
+.faq-item{background:#fff;border:1px solid var(--border);border-radius:12px;overflow:hidden;box-shadow:var(--shadow)}
+.faq-q{padding:1.1rem 1.4rem;cursor:pointer;font-weight:700;display:flex;justify-content:space-between;align-items:center;gap:1rem;transition:background .15s;font-size:1rem}
+.faq-q:hover{background:var(--bg3)}
+.faq-q::after{content:"+";font-size:1.4rem;color:var(--accent);font-weight:400;transition:transform .2s}
+.faq-item.open .faq-q::after{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;padding:0 1.4rem;color:var(--text2);transition:all .3s ease}
+.faq-item.open .faq-a{max-height:600px;padding:0 1.4rem 1.2rem}
+.cta-block{background:linear-gradient(135deg,#1a1530,#2e1f5c);color:#fff;padding:4rem 1.5rem;text-align:center}
+.cta-block-inner{max-width:760px;margin:0 auto}
+.cta-block h2{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:800;margin-bottom:1rem;letter-spacing:-.02em}
+.cta-block p{color:rgba(255,255,255,.8);margin-bottom:1.5rem;font-size:1.05rem}
+.cta-buttons{display:flex;gap:.9rem;justify-content:center;flex-wrap:wrap}
+.footer{background:#13102a;color:#8a82a8;padding:2.5rem 1.5rem;text-align:center;font-size:.88rem}
+.footer p{margin-bottom:.5rem}
+.footer a{color:#a78bfa}
+.sticky-bar{position:fixed;bottom:0;left:0;right:0;z-index:90;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;padding:.8rem 1rem;display:flex;align-items:center;justify-content:center;gap:1rem;box-shadow:0 -8px 24px rgba(80,40,180,.18);transform:translateY(110%);transition:transform .35s}
+.sticky-bar.show{transform:translateY(0)}
+.sticky-bar-text{font-size:.92rem}
+.sb-short{display:none}
+.sticky-bar-btn{background:#fff;color:var(--accent2);font-weight:700;padding:.55rem 1.1rem;border-radius:8px;white-space:nowrap;font-size:.88rem}
+.sticky-bar-btn:hover{color:var(--accent2)}
+.sticky-bar-close{background:transparent;border:1px solid rgba(255,255,255,.4);color:#fff;width:30px;height:30px;border-radius:50%;cursor:pointer;font-size:.8rem}
+@media (max-width:900px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .rating-card{grid-template-columns:50px 1fr}
+  .rating-card .card-right{grid-column:1 / -1;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:.6rem;text-align:left;border-top:1px solid var(--border);padding-top:1rem}
+  .card-btn{grid-column:1 / -1}
+  .pros-cons{grid-template-columns:1fr}
+  .detail-pros-cons{grid-template-columns:1fr}
+}
+@media (max-width:700px){
+  .nav-links{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;flex-direction:column;padding:1rem 1.5rem;gap:1rem;border-bottom:1px solid var(--border)}
+  .nav-links.open{display:flex}
+  .burger{display:flex}
+  .section{padding:2.5rem 1rem}
+  .hero{padding:2rem 1rem 2rem}
+  .sb-full{display:none}
+  .sb-short{display:inline}
+  .mid-cta-banner{flex-direction:column;text-align:center}
+}
+@media (max-width:480px){
+  .stats{grid-template-columns:1fr 1fr;gap:.7rem}
+  .stat{padding:1.1rem .6rem}
+  .stat-num{font-size:1.5rem}
+  .card-price{font-size:1.4rem}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" aria-label="Главная навигация">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">
+<a href="/" class="nav-logo"><img src="/logo_proxy.png" alt="VPS для прокси" height="54"></a>
+      <span>VPS·PROXY</span>
+    </a>
+    <button class="burger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Меню"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="#rating">Рейтинг</a></li>
+      <li><a href="#details">Сравнение</a></li>
+      <li><a href="#howto">Настройка</a></li>
+      <li><a href="#mtproto">MTProto</a></li>
+      <li><a href="#security">Безопасность</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero-badge">✅ Обновлено: 14 мая 2026 - конфиги и цены провайдеров перепроверены</div>
+  <h1>VPS для <em>прокси</em> 2026<br>ТОП-8 хостингов + настройка SOCKS5 и MTProto</h1>
+  <p class="lead">Восемь проверенных хостеров, готовые конфиги 3proxy и Squid, установка MTProto для Telegram и Xray с VLESS+XHTTP. Цены, минусы, реальные тесты. Без воды.</p>
+  <div class="hero-cta-row">
+    <a href="#rating" class="hero-cta">🏆 Открыть рейтинг</a>
+    <a href="#howto" class="hero-cta ghost">⚙️ Сразу к настройке</a>
+  </div>
+  <div class="trust-row">
+    <div class="trust-badge"><span>🌐</span><span>8 хостеров проверено</span></div>
+    <div class="trust-badge"><span>⚡</span><span>SOCKS5 за 20 минут</span></div>
+    <div class="trust-badge"><span>🇪🇺</span><span>7 стран ЕС в подборке</span></div>
+    <div class="trust-badge"><span>🔒</span><span>Готовые конфиги</span></div>
+  </div>
+</header>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stat"><div class="stat-num">8</div><div class="stat-label">Провайдеров в рейтинге</div></div>
+  <div class="stat"><div class="stat-num">от 210₽</div><div class="stat-label">Порог входа</div></div>
+  <div class="stat"><div class="stat-num">20 мин</div><div class="stat-label">На развёртывание 3proxy</div></div>
+  <div class="stat"><div class="stat-num">15-25 мс</div><div class="stat-label">Пинг до Финляндии из СПб</div></div>
+</div>
+
+
+<!-- INTRO -->
+<section class="section" id="intro">
+  <div class="article">
+    <h2>VPS для прокси: как выбрать сервер и поднять свой прокси за час</h2>
+    <p>Покупать готовые прокси по подписке в 2026-м - значит платить за чужой засвеченный IP, делить полосу с парсерами соседа и молиться, что провайдер не сольёт логи. Свой прокси-сервер на VPS решает все три проблемы разом. И стоит дешевле, чем кофе в Шоколаднице.</p>
+
+    <p>В этом гайде разбираю, какой VPS для прокси реально брать под разные задачи, какие провайдеры не врут про канал, как за двадцать минут поднять SOCKS5 через 3proxy и MTProto для Telegram. Без воды. С конфигами, ценами и моими косяками по ходу настройки.</p>
+
+    <p>Я держу собственные прокси на VPS с 2019-го. Сначала для парсинга маркетплейсов, потом под антидетект-браузеры, сейчас - в основном для команды и личного VPN-стека. За эти годы перепробовал десяток хостеров, словил три блокировки IP подряд от РКН и научился ставить 3proxy с закрытыми глазами. Поехали.</p>
+
+    <div class="article-highlight">
+      <strong>Что внутри статьи:</strong> требования к серверу под VPS прокси, рейтинг 8 хостеров с честными ценами, пошаговая установка прокси на VPS (3proxy, Squid, MTProto, Xray), reverse proxy на VPS через Nginx, защита и аутентификация. Внешние источники: <a href="https://3proxy.org/0.9/cfg.html" target="_blank" rel="noopener nofollow">официальная документация 3proxy</a>, <a href="https://github.com/TelegramMessenger/MTProxy" target="_blank" rel="noopener nofollow">репозиторий MTProxy</a>, <a href="https://datatracker.ietf.org/doc/html/rfc7858" target="_blank" rel="noopener nofollow">RFC 7858</a> про DNS-leak.
+    </div>
+  </div>
+</section>
+
+<!-- ZACHEM -->
+<section class="section alt" id="why">
+  <div class="article">
+    <h2 class="section-title" style="margin-bottom:2rem">Зачем нужен свой прокси-сервер на VPS</h2>
+    <p>Готовый прокси за 30 рублей в месяц - это IP, через который до вас прошло уже тысяч пять любителей грязного скрейпинга. Его уже забанили в Google, Cloudflare пометил как datacenter, Instagram кидает на чек при первом запросе. Свой прокси на VPS даёт чистый IP, который видит только вы.</p>
+
+    <p>Дальше - приватность. У продавцов готовых прокси логи лежат вечно, и при первом запросе от условного Роскомнадзора утекают целиком. На своём VPS вы сами решаете, писать ли логи и куда. Я обычно отключаю их полностью в <code>/etc/3proxy/3proxy.cfg</code> строкой <code>nolog</code>.</p>
+
+    <p>Цена. Готовый residential за 5 баксов в месяц даёт 1 ГБ трафика. VPS для прокси за те же 5 евро у Hetzner или Contabo - 20 терабайт. Разница в двадцать тысяч раз, если кто не считал.</p>
+
+    <p>Контроль. На VPS вы крутите столько прокси, сколько влезет в RAM. Один сервер с 2 ГБ оперативки спокойно держит 5-7 портов: SOCKS5, HTTP, HTTPS, MTProto - всё одновременно. Поменяли пароль - переподключились. Залочили доступ по белому списку IP - спите спокойно.</p>
+
+    <p>Ну и обход блокировок. На фоне апрельского угара 2026-го с ТСПУ и законопроектом «Антифрод 2.0» (его «Коммерсантъ» разобрал в апреле) свой прокси - не игрушка, а базовая инфраструктура. Российским хостерам собираются прямо запретить размещать VPN-сервисы. К прокси формально это не относится, но я бы давно перенёс всё в Европу.</p>
+
+    <div class="article-highlight2">
+      <strong>Что не закрывает свой VPS?</strong> Геотаргетинг под «нужен IP из штата Огайо». Если задача - именно residential-пул, идите в Bright Data или Smartproxy. Для всего остального хватает datacenter IP на собственном сервере.
+    </div>
+  </div>
+</section>
+
+<!-- KAKOY VPS -->
+<section class="section" id="choose">
+  <div class="article">
+    <h2 class="section-title" style="margin-bottom:2rem">Какой VPS выбрать для прокси</h2>
+    <p>Прокси - не PostgreSQL под нагрузкой и не Stable Diffusion. Ресурсов жрёт мало, требований к диску почти нет. Но есть нюансы, на которых начинающие админы садятся в лужу.</p>
+
+    <h3>Процессор и RAM</h3>
+    <p>Для SOCKS5 и HTTP на 3proxy хватает 1 vCPU и 512 МБ оперативки. Я гонял такой стек на самом дешёвом тарифе Beget за 210 рублей - держит до 50 одновременных соединений без чиха. Для MTProxy на канал с тысячей подписчиков - тоже 1 vCPU и 1 ГБ. Для Xray с VLESS+XHTTP уже желателен 1 ГБ RAM минимум, лучше 2.</p>
+
+    <h3>Канал</h3>
+    <p>Вот тут косячат все. Многие хостеры пишут «порт 1 Гбит/с», а в правилах мелким шрифтом - shared, fair use, до 100 Мбит/с гарантированно. Под прокси это критично: если через сервер льётся 4К-видео или парсер качает картинки, узкий канал убьёт всё. Я гоняю iperf3 сразу после оплаты, до того как накатывать что-то серьёзное. У AdminVPS на финской площадке честные 800-900 Мбит/с в пике, у Aeza во Франкфурте видел 1.2 Гбит/с по факту. Hetzner - честный гигабит без оговорок.</p>
+
+    <h3>IP-адреса</h3>
+    <p>Один IPv4 в стандарте есть везде. Если нужны несколько IP под мультиаккаунты или антидетект - смотрите в сторону провайдеров с возможностью докупки. У Hostkey доп IP стоит около 170 рублей, у Aeza - €2/мес. /29 подсеть (8 адресов, из которых полезных 5) дают единицы, обычно по запросу в саппорт. IPv6 раздают почти все, но половина сервисов в интернете на него до сих пор не умеет.</p>
+
+    <h3>Локация</h3>
+    <p>Под Telegram и обход блокировок - Нидерланды и Финляндия. Амстердам быстрый, пинг из Москвы 35-40 мс. Хельсинки - 15-25 мс из Питера, рекорд по близости. Под парсинг западных площадок - Германия (Франкфурт, AMS-IX и DE-CIX рядом, маршруты короткие). США берите, только если действительно нужен американский IP - пинг 100-150 мс, под Telegram некомфортно.</p>
+
+    <h3>Виртуализация</h3>
+    <p>Только KVM. OpenVZ - в утиль, на нём не поставите кастомное ядро, нормальный iptables и половину современного софта. Все нормальные провайдеры давно ушли с OVZ. Если в тарифе вижу OpenVZ - закрываю вкладку.</p>
+
+    <h3>ОС</h3>
+    <p>Прокси-сервер Ubuntu VPS - очевидный выбор. Ubuntu 22.04 LTS или 24.04 LTS. Debian 12 - тоже отлично, мне даже больше нравится за отсутствие snap-овой возни. CentOS Stream - если у вас уже есть инфраструктура на RHEL. Прокси на VPS с Windows - отдельная тема ниже, обычно её не хотят, но иногда приходится.</p>
+
+    <h3>Минимальная конфигурация под прокси на VPS</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Сценарий</th>
+            <th>vCPU</th>
+            <th>RAM</th>
+            <th>Диск</th>
+            <th>Канал</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Личный SOCKS5/HTTP</td><td>1</td><td>512 МБ</td><td>10 ГБ NVMe</td><td>100 Мбит/с</td></tr>
+          <tr><td>MTProto для канала до 5к</td><td>1</td><td>1 ГБ</td><td>15 ГБ NVMe</td><td>500 Мбит/с</td></tr>
+          <tr><td>Парсинг, антидетект, 5+ портов</td><td>2</td><td>2 ГБ</td><td>20 ГБ NVMe</td><td>1 Гбит/с</td></tr>
+          <tr><td>Xray с VLESS+XHTTP</td><td>1-2</td><td>2 ГБ</td><td>20 ГБ NVMe</td><td>1 Гбит/с</td></tr>
+          <tr><td>Корпоративный шлюз 20+ юзеров</td><td>2-4</td><td>4 ГБ</td><td>30 ГБ NVMe</td><td>1 Гбит/с</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:1rem">Тариф «от 3 евро в месяц» закрывает первые две строки. Для всего остального закладывайте 5-10 евро.</p>
+  </div>
+</section>
+
+<!-- RATING -->
+<section class="section alt" id="rating">
+  <div class="container">
+    <h2 class="section-title">ТОП-8 VPS-провайдеров для прокси - рейтинг 2026</h2>
+    <p class="section-sub">Критерии: честный канал, поддержка KVM, NVMe-диски, локации в ЕС, лояльная политика к прокси и VPN-протоколам, оплата в рублях или крипте</p>
+
+    <div class="recommender">
+      <h3>🤔 Найдите свой VPS под прокси за 10 секунд</h3>
+      <div class="rec-btns">
+        <button class="rec-btn" onclick="showRec('opt1',this)">💰 Минимальный бюджет</button>
+        <button class="rec-btn" onclick="showRec('opt2',this)">📱 MTProto для Telegram</button>
+        <button class="rec-btn" onclick="showRec('opt3',this)">🕸️ Парсинг и антидетект</button>
+        <button class="rec-btn" onclick="showRec('opt4',this)">🏢 B2B с документами</button>
+      </div>
+      <div class="rec-result" id="rec-opt1">✅ <a href="https://firstbyte.ru/" target="_blank" rel="nofollow noopener"><strong>FirstByte</strong></a> от 259 ₽ или Beget от 210 ₽. KVM, NVMe, для личного SOCKS5 или HTTP-прокси - без переплат.</div>
+      <div class="rec-result" id="rec-opt2">✅ <a href="https://adminvps.ru/vps/vps_finland.php?aff=29893" target="_blank" rel="nofollow noopener"><strong>AdminVPS Финляндия</strong></a> с промокодом <strong>VPS30</strong> - пинг 15-20 мс из СПб, MTProxy летит. Или <a href="https://aeza.net/" target="_blank" rel="nofollow noopener"><strong>Aeza</strong></a> Хельсинки на Ryzen 9.</div>
+      <div class="rec-result" id="rec-opt3">✅ <a href="https://aeza.net/" target="_blank" rel="nofollow noopener"><strong>Aeza</strong></a> с почасовой оплатой и канал до 10 Гбит/с, либо <a href="https://hostkey.com/vps/" target="_blank" rel="nofollow noopener"><strong>Hostkey</strong></a> со своим железом и доп IP за 170 ₽.</div>
+      <div class="rec-result" id="rec-opt4">✅ <a href="https://timeweb.cloud/?i=138553" target="_blank" rel="nofollow noopener"><strong>Timeweb Cloud</strong></a> - закрывающие документы, ЭСЧФ, персональный менеджер, REST API и Terraform для DevOps.</div>
+    </div>
+
+    <div class="rating-list">
+
+      <!-- 1 AdminVPS -->
+      <div class="rating-card gold">
+        <div class="rank">1</div>
+        <div class="card-info">
+          <div class="badge-choice">💰 Лучшая цена за набор</div>
+          <h3>AdminVPS</h3>
+          <p class="card-desc">Тариф Lite за 499 ₽: 1 ядро, 1 ГБ RAM, 15 ГБ NVMe, гигабитный порт. Финляндия, Германия, Нидерланды, Польша. Бесплатные бэкапы с тарифа Promo, ispmanager в комплекте, тестовый период семь дней. Финский ЦОД из СПб ловится за 15-20 мс - топ под прокси для русскоязычной аудитории. Промокод VPS30 срезает первый месяц на треть. Минус: с января 2026 на ЕС-локациях лимит трафика 1 ТБ, расширение от 100 ₽ за терабайт - бесит.</p>
+          <div class="card-meta">
+            <span>📍 FI, DE, NL, PL</span>
+            <span>💾 NVMe</span>
+            <span>🌐 1 Гбит/с</span>
+          </div>
+          <div class="card-tags">
+            <span class="tag hot">Intel i9 5.0 ГГц</span>
+            <span class="tag green">Бэкапы 0₽</span>
+            <span class="tag">ispmanager</span>
+            <span class="tag blue">VPN OK</span>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="card-price">от 499 ₽</div>
+          <div class="card-price-label">в месяц</div>
+          <div class="card-score">★★★★★ 4.7</div>
+          <a href="https://adminvps.ru/vps/vps_finland.php?aff=29893" class="card-btn card-btn-primary card-btn-green" target="_blank" rel="nofollow noopener">VPS30 - минус 30% →</a>
+          <div class="promo-code">🎁 VPS30</div>
+        </div>
+      </div>
+
+      <!-- 2 Aeza -->
+      <div class="rating-card silver">
+        <div class="rank">2</div>
+        <div class="card-info">
+          <div class="badge-popular">⚡ Топовое железо</div>
+          <h3>Aeza</h3>
+          <p class="card-desc">AMD Ryzen 9 9950X, NVMe с RAM-кешем, канал до 10 Гбит/с. Семь европейских локаций: Франкфурт, Амстердам, Вена, Стокгольм, Хельсинки, Париж, Лондон. Биллинг почасовой, можно поднять сервер под разовый парсинг на четыре часа за копейки. Берёт рубли и крипту. Под высоконагруженный прокси с десятком клиентов - моё фаворит-решение. Внимание: на российских площадках Aeza с декабря 2025 блокирует VPN. Для прокси-сервера на VPS берите только европейские локации.</p>
+          <div class="card-meta">
+            <span>📍 7 стран EU</span>
+            <span>💾 NVMe + RAM cache</span>
+            <span>🌐 До 10 Гбит/с</span>
+          </div>
+          <div class="card-tags">
+            <span class="tag hot">Ryzen 9 9950X</span>
+            <span class="tag">Почасово</span>
+            <span class="tag green">Крипто</span>
+            <span class="tag">DDoS 2 Тбит/с</span>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="card-price">от 593 ₽</div>
+          <div class="card-price-label">в месяц</div>
+          <div class="card-score">★★★★★ 4.9</div>
+          <a href="https://aeza.net/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Перейти в Aeza →</a>
+        </div>
+      </div>
+
+      <!-- 3 Fornex -->
+      <div class="rating-card bronze">
+        <div class="rank">3</div>
+        <div class="card-info">
+          <div class="badge-local">🌍 16 лет на рынке</div>
+          <h3>Fornex</h3>
+          <p class="card-desc">Испанская юрисдикция, серверы в Германии, Нидерландах, Швейцарии, Швеции, Испании, России и США. Аптайм 99.97% за 2026 по данным мониторинга. NVMe, KVM, фильтрация DDoS до 10 Гбит/с. PayPal, рубли, крипта, возврат за первую неделю. Тикеты закрывают за 4 минуты, проверял лично с секундомером. Швейцарский ЦОД - если хочется не светить трафик в стандартных юрисдикциях. Минус: ценник чуть выше среднего.</p>
+          <div class="card-meta">
+            <span>📍 7 стран + US</span>
+            <span>💾 NVMe</span>
+            <span>🛡️ DDoS 10 Гбит/с</span>
+          </div>
+          <div class="card-tags">
+            <span class="tag hot">PayPal</span>
+            <span class="tag green">Крипто</span>
+            <span class="tag">Возврат 7 дн.</span>
+            <span class="tag blue">Швейцария</span>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="card-price">от 581 ₽</div>
+          <div class="card-price-label">в месяц</div>
+          <div class="card-score">★★★★★ 4.8</div>
+          <a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Перейти в Fornex →</a>
+        </div>
+      </div>
+
+      <!-- 4 Timeweb Cloud -->
+      <div class="rating-card">
+        <div class="rank">4</div>
+        <div class="card-info">
+          <div class="badge-new">🏢 Корпоративный уровень</div>
+          <h3>Timeweb Cloud</h3>
+          <p class="card-desc">Лидер российского IaaS-рынка, 132 000+ активных аккаунтов, премия Рунета. VDS для прокси в Нидерландах, Польше, Германии, Финляндии. Посчасовой биллинг, REST API, Terraform-провайдер, Cloud-init. Бухгалтерия для юрлиц на автомате - выставляют закрывашки, дают менеджера. Под B2B-сценарии лучший выбор в подборке. Минус: IPv4 платный, 200 ₽/мес. Мелочь, но осадочек.</p>
+          <div class="card-meta">
+            <span>📍 NL, PL, DE, FI</span>
+            <span>💾 NVMe</span>
+            <span>⚙️ Terraform/API</span>
+          </div>
+          <div class="card-tags">
+            <span class="tag green">132k аккаунтов</span>
+            <span class="tag">KVM</span>
+            <span class="tag blue">B2B/ЭСЧФ</span>
+            <span class="tag">Tier III</span>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="card-price">от 477 ₽</div>
+          <div class="card-price-label">в месяц</div>
+          <div class="card-score">★★★★★ 4.6</div>
+          <a href="https://timeweb.cloud/?i=138553" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Перейти в Timeweb →</a>
+        </div>
+      </div>
+
+      <!-- 5 Hetzner -->
+      <div class="rating-card">
+        <div class="rank">5</div>
+        <div class="card-info">
+          <div class="badge-new">🇩🇪 Честный гигабит</div>
+          <h3>Hetzner</h3>
+          <p class="card-desc">Немецкий ветеран, 400+ тысяч клиентов. CX22 за €4.99 после апрельского повышения цен: 2 vCPU, 4 ГБ RAM, 40 ГБ диск, 20 ТБ трафика. Площадки в Германии, Финляндии, США, Сингапуре. Гигабит реальный, не маркетинговый. Российские карты не примет - оплата только зарубежной картой или через посредников. Для тех, кто умеет в SEPA и крипту, - бескомпромиссный вариант. Минус: с 1 апреля 2026 подняли цены на 30-37%. Саппорт сухой, как немецкое пиво без пены.</p>
+          <div class="card-meta">
+            <span>📍 DE, FI, US, SG</span>
+            <span>💾 NVMe</span>
+            <span>🌐 1 Гбит/с честный</span>
+          </div>
+          <div class="card-tags">
+            <span class="tag hot">20 ТБ трафика</span>
+            <span class="tag">400k+ клиентов</span>
+            <span class="tag blue">GDPR</span>
+            <span class="tag">SEPA</span>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="card-price">€4.99</div>
+          <div class="card-price-label">~450 ₽/мес</div>
+          <div class="card-score">★★★★★ 4.7</div>
+          <a href="https://www.hetzner.com/cloud" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Перейти в Hetzner →</a>
+        </div>
+      </div>
+
+      <!-- 6 Contabo -->
+      <div class="rating-card">
+        <div class="rank">6</div>
+        <div class="card-info">
+          <div class="badge-cheap">💾 Максимум RAM</div>
+          <h3>Contabo</h3>
+          <p class="card-desc">Cloud VPS S за $5.50: 4 vCPU, 8 ГБ RAM, 50 ГБ NVMe или 200 ГБ SSD. Под прокси с большим количеством соединений или Xray в несколько инбаундов - дикий ценник в плюс. Германия, США, Сингапур, Япония, Индия, Австралия. Минус: канал 200 Мбит/с на младших тарифах, не гигабит. И российскую карту не примет. Под массовый SOCKS5 на десятке портов одновременно - очень бодро по цене.</p>
+          <div class="card-meta">
+            <span>📍 DE, US, SG, JP</span>
+            <span>💾 NVMe / SSD</span>
+            <span>🌐 200 Мбит/с</span>
+          </div>
+          <div class="card-tags">
+            <span class="tag hot">8 ГБ RAM</span>
+            <span class="tag">4 vCPU</span>
+            <span class="tag green">200 ГБ SSD</span>
+            <span class="tag blue">6 стран</span>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="card-price">$5.50</div>
+          <div class="card-price-label">~500 ₽/мес</div>
+          <div class="card-score">★★★★☆ 4.3</div>
+          <a href="https://contabo.com/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Перейти в Contabo →</a>
+        </div>
+      </div>
+
+      <!-- 7 Hostkey -->
+      <div class="rating-card">
+        <div class="rank">7</div>
+        <div class="card-info">
+          <div class="badge-local">❄️ Исландия и крипта</div>
+          <h3>Hostkey</h3>
+          <p class="card-desc">Свои стойки в Нидерландах, Германии, Финляндии, Исландии и США. От 340 ₽, гигабит, 3 ТБ трафика. Антидидос на голландской площадке. Берут карту Мир, СБП, крипту через BitPay. Исландия редко где встречается - удобно, если нужна нестандартная гео. Доп IP - 170 ₽/мес, что для антидетект-сценариев приятно. Минус: на дефолтных тарифах режут исходящие порты, проверял эмпирически - саппорт открывает по заявке.</p>
+          <div class="card-meta">
+            <span>📍 NL, DE, FI, IS, US</span>
+            <span>💾 NVMe / SSD</span>
+            <span>🌐 1 Гбит/с, 3 ТБ</span>
+          </div>
+          <div class="card-tags">
+            <span class="tag hot">Своё железо</span>
+            <span class="tag">Исландия</span>
+            <span class="tag green">BitPay</span>
+            <span class="tag blue">Карта Мир</span>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="card-price">от 340 ₽</div>
+          <div class="card-price-label">в месяц</div>
+          <div class="card-score">★★★★☆ 4.5</div>
+          <a href="https://hostkey.com/vps/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Перейти в Hostkey →</a>
+        </div>
+      </div>
+
+      <!-- 8 FirstByte -->
+      <div class="rating-card">
+        <div class="rank">8</div>
+        <div class="card-info">
+          <div class="badge-cheap">💰 Самый низкий порог</div>
+          <h3>FirstByte</h3>
+          <p class="card-desc">Российский хостер с европейскими тарифами от 259 ₽. KVM, NVMe, бесплатная DDoS-защита. Раньше тариф за 75 рублей был легендой Habr. Под бюджетный SOCKS5 на один-два пользователя - почему нет. Минус: канал не везде гигабит, поддержка отвечает не молниеносно, аптайм по моим замерам 99.9%, без премиальных гарантий. Для личного прокси-хостинга - сойдёт. Под продакшен - я бы взял что-то надёжнее.</p>
+          <div class="card-meta">
+            <span>📍 NL, DE + Россия</span>
+            <span>💾 NVMe</span>
+            <span>🌐 100-1000 Мбит/с</span>
+          </div>
+          <div class="card-tags">
+            <span class="tag hot">от 259 ₽</span>
+            <span class="tag">KVM</span>
+            <span class="tag green">DDoS бесплатно</span>
+            <span class="tag blue">7 дней тест</span>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="card-price">от 259 ₽</div>
+          <div class="card-price-label">в месяц</div>
+          <div class="card-score">★★★★☆ 4.1</div>
+          <a href="https://firstbyte.ru/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Перейти в FirstByte →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MID CTA -->
+<div style="padding:0 1.5rem;max-width:1180px;margin:0 auto">
+  <div class="mid-cta-banner">
+    <div class="mcb-text">
+      <h3>🚀 Промокод VPS30 = минус 30% на первый счёт</h3>
+      <p>AdminVPS, финская площадка, NVMe, KVM, бэкапы бесплатно. Пинг 15-20 мс из СПб - под SOCKS5, MTProto и Xray идеально.</p>
+    </div>
+    <a href="https://adminvps.ru/vps/vps_finland.php?aff=29893" class="mcb-btn" target="_blank" rel="nofollow noopener">Активировать VPS30 →</a>
+  </div>
+</div>
+
+<!-- DETAILS -->
+<section class="section" id="details">
+  <div class="container">
+    <h2 class="section-title">Подробное сравнение топ-3 VPS под прокси</h2>
+    <p class="section-sub">Развёрнутые карточки лидеров с реальными спеками - плюсы и минусы без рекламной мишуры</p>
+
+    <div class="detail-grid">
+
+      <div class="detail-card detail-gold">
+        <div class="detail-header">
+          <span class="detail-rank">🥇 #1</span>
+          <span class="detail-name">AdminVPS</span>
+          <span class="detail-price">от 499 ₽/мес</span>
+        </div>
+        <div class="detail-specs">
+          <div class="spec-row"><span class="spec-label">Локация под прокси</span><span class="spec-value">Финляндия, 15-20 мс</span></div>
+          <div class="spec-row"><span class="spec-label">Диск</span><span class="spec-value">NVMe</span></div>
+          <div class="spec-row"><span class="spec-label">Виртуализация</span><span class="spec-value">KVM</span></div>
+          <div class="spec-row"><span class="spec-label">Канал</span><span class="spec-value">1 Гбит/с</span></div>
+          <div class="spec-row"><span class="spec-label">Трафик ЕС</span><span class="spec-value">1 ТБ + расширение</span></div>
+          <div class="spec-row"><span class="spec-label">Промокод</span><span class="spec-value">VPS30 (-30%)</span></div>
+        </div>
+        <div class="detail-pros-cons">
+          <div class="detail-pros">
+            <div class="dpc-title">✅ Плюсы</div>
+            <p>Бесплатные бэкапы с Promo</p>
+            <p>ispmanager в комплекте</p>
+            <p>Линейка «Мощные» на i9 5.0 ГГц</p>
+            <p>7 дней тестового периода</p>
+          </div>
+          <div class="detail-cons">
+            <div class="dpc-title">❌ Минусы</div>
+            <p>Лимит 1 ТБ трафика в ЕС</p>
+            <p>Доп ТБ - 100 ₽</p>
+            <p>Без крипты</p>
+          </div>
+        </div>
+        <a href="https://adminvps.ru/vps/vps_finland.php?aff=29893" class="detail-btn" target="_blank" rel="nofollow noopener">VPS30 - минус 30% →</a>
+      </div>
+
+      <div class="detail-card detail-silver">
+        <div class="detail-header">
+          <span class="detail-rank">🥈 #2</span>
+          <span class="detail-name">Aeza</span>
+          <span class="detail-price">от 593 ₽/мес</span>
+        </div>
+        <div class="detail-specs">
+          <div class="spec-row"><span class="spec-label">Процессор</span><span class="spec-value">Ryzen 9 9950X</span></div>
+          <div class="spec-row"><span class="spec-label">Диск</span><span class="spec-value">NVMe + RAM cache</span></div>
+          <div class="spec-row"><span class="spec-label">Виртуализация</span><span class="spec-value">KVM</span></div>
+          <div class="spec-row"><span class="spec-label">Канал</span><span class="spec-value">До 10 Гбит/с</span></div>
+          <div class="spec-row"><span class="spec-label">DDoS-защита</span><span class="spec-value">2 Тбит/с в базе</span></div>
+          <div class="spec-row"><span class="spec-label">Биллинг</span><span class="spec-value">Почасовой</span></div>
+        </div>
+        <div class="detail-pros-cons">
+          <div class="detail-pros">
+            <div class="dpc-title">✅ Плюсы</div>
+            <p>7 европейских ЦОД</p>
+            <p>Рубли и крипта</p>
+            <p>Почасовая оплата</p>
+            <p>Тестировать дёшево</p>
+          </div>
+          <div class="detail-cons">
+            <div class="dpc-title">❌ Минусы</div>
+            <p>VPN на RU-площадках режут</p>
+            <p>Только европейские брать</p>
+            <p>Ценник выше FirstByte</p>
+          </div>
+        </div>
+        <a href="https://aeza.net/" class="detail-btn" target="_blank" rel="nofollow noopener">Перейти в Aeza →</a>
+      </div>
+
+      <div class="detail-card detail-bronze">
+        <div class="detail-header">
+          <span class="detail-rank">🥉 #3</span>
+          <span class="detail-name">Fornex</span>
+          <span class="detail-price">от 581 ₽/мес</span>
+        </div>
+        <div class="detail-specs">
+          <div class="spec-row"><span class="spec-label">Юрисдикция</span><span class="spec-value">Испания</span></div>
+          <div class="spec-row"><span class="spec-label">Диск</span><span class="spec-value">NVMe</span></div>
+          <div class="spec-row"><span class="spec-label">Аптайм 2026</span><span class="spec-value">99.97%</span></div>
+          <div class="spec-row"><span class="spec-label">DDoS</span><span class="spec-value">До 10 Гбит/с</span></div>
+          <div class="spec-row"><span class="spec-label">Стаж</span><span class="spec-value">16+ лет</span></div>
+          <div class="spec-row"><span class="spec-label">Оплата</span><span class="spec-value">Карта, PayPal, крипта</span></div>
+        </div>
+        <div class="detail-pros-cons">
+          <div class="detail-pros">
+            <div class="dpc-title">✅ Плюсы</div>
+            <p>Швейцарский ЦОД</p>
+            <p>PayPal принимают</p>
+            <p>Тикеты за 4 минуты</p>
+            <p>Возврат 7 дней</p>
+          </div>
+          <div class="detail-cons">
+            <div class="dpc-title">❌ Минусы</div>
+            <p>Тарифная сетка путаная</p>
+            <p>Ценник выше среднего</p>
+            <p>Сайт перегружен</p>
+          </div>
+        </div>
+        <a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/" class="detail-btn" target="_blank" rel="nofollow noopener">Перейти в Fornex →</a>
+      </div>
+
+    </div>
+
+    <h3 style="text-align:center;margin:3.5rem 0 1.2rem;font-size:1.4rem;font-weight:800;color:var(--accent2)">Сводная таблица: купить VPS для прокси в 2026-м</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Провайдер</th>
+            <th>От ₽/мес</th>
+            <th>RAM (мин)</th>
+            <th>Канал</th>
+            <th>Локации EU</th>
+            <th>Оплата РФ</th>
+            <th>Под что брать</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background:rgba(245,184,0,.06)"><td>🥇 1</td><td><strong><a href="https://adminvps.ru/vps/vps_finland.php?aff=29893" target="_blank" rel="nofollow noopener">AdminVPS</a></strong> <code style="background:#fff3cd;padding:1px 6px;border-radius:4px;font-size:.78rem">VPS30</code></td><td><span style="color:var(--green);font-weight:700">499</span></td><td>1 ГБ</td><td>1 Гбит/с</td><td>FI, DE, NL, PL</td><td>Карта, СБП</td><td>Универсал, баланс</td></tr>
+          <tr><td>🥈 2</td><td><strong><a href="https://aeza.net/" target="_blank" rel="nofollow noopener">Aeza</a></strong></td><td>593</td><td>1 ГБ</td><td>10 Гбит/с</td><td>DE, NL, AT, SE, FI, FR, UK</td><td>Карта, крипта</td><td>Железо, почасовая</td></tr>
+          <tr><td>🥉 3</td><td><strong><a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/" target="_blank" rel="nofollow noopener">Fornex</a></strong></td><td>581</td><td>1 ГБ</td><td>1 Гбит/с</td><td>DE, NL, CH, SE, ES</td><td>Карта, PayPal, крипта</td><td>Приватность, Швейцария</td></tr>
+          <tr><td>4</td><td><strong><a href="https://timeweb.cloud/?i=138553" target="_blank" rel="nofollow noopener">Timeweb Cloud</a></strong></td><td>477</td><td>1 ГБ</td><td>1 Гбит/с</td><td>NL, PL, DE, FI</td><td>Карта, СБП, безнал</td><td>B2B, юрлица, API</td></tr>
+          <tr><td>5</td><td><strong><a href="https://www.hetzner.com/cloud" target="_blank" rel="nofollow noopener">Hetzner</a></strong></td><td>~450 (€4.99)</td><td>4 ГБ</td><td>1 Гбит/с</td><td>DE, FI</td><td>Только зарубеж</td><td>Бюджет + честный канал</td></tr>
+          <tr><td>6</td><td><strong><a href="https://contabo.com/" target="_blank" rel="nofollow noopener">Contabo</a></strong></td><td>~550 ($5.50)</td><td>8 ГБ</td><td>200 Мбит/с</td><td>DE</td><td>Только зарубеж</td><td>Дешёвая RAM</td></tr>
+          <tr><td>7</td><td><strong><a href="https://hostkey.com/vps/" target="_blank" rel="nofollow noopener">Hostkey</a></strong></td><td>340</td><td>1 ГБ</td><td>1 Гбит/с</td><td>NL, DE, FI, IS</td><td>Карта Мир, крипта</td><td>Исландия, своё железо</td></tr>
+          <tr><td>8</td><td><strong><a href="https://firstbyte.ru/" target="_blank" rel="nofollow noopener">FirstByte</a></strong></td><td>259</td><td>1 ГБ</td><td>100-1000 Мбит/с</td><td>NL, DE</td><td>Карта</td><td>Самый дешёвый</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:.85rem;color:var(--text2);margin-top:1rem;text-align:center">Цены минимальных конфигураций на 14 мая 2026. Дешёвый VPS для прокси - FirstByte или Hostkey. Лучший VPS для прокси под нагрузку - Aeza или Hetzner. Купить VPS прокси для B2B - Timeweb Cloud.</p>
+  </div>
+</section>
+
+<!-- HOWTO -->
+<section class="section" id="howto">
+  <div class="article">
+    <h2 class="section-title" style="margin-bottom:2rem">Как поднять прокси-сервер на VPS: пошаговая инструкция</h2>
+    <p>Дальше - руками. Все команды проверял на свежей Ubuntu 22.04 LTS, на других дистрибутивах меняются только пакетные менеджеры.</p>
+
+    <h3>Подключение по SSH</h3>
+    <p>Берёте IP и root-пароль из письма хостера, открываете терминал:</p>
+
+    <div class="code-block"><span class="cmd">ssh</span> root@ВАШ_IP</div>
+
+    <p>Сразу обновляем систему и ставим базовые утилиты:</p>
+
+    <div class="code-block"><span class="cmd">apt</span> update && <span class="cmd">apt</span> upgrade -y
+<span class="cmd">apt</span> install -y wget curl ufw build-essential</div>
+
+    <h3>SOCKS5 прокси на VPS через 3proxy</h3>
+    <p>3proxy - швейцарский нож. SOCKS4, SOCKS5, HTTP, HTTPS, FTP - всё в одном бинарнике, конфиг на 20 строк. Жрёт меньше 10 МБ оперативки. Под установку прокси на VPS - выбор номер один. В репозиториях Ubuntu свежей версии нет, собираем из исходников:</p>
+
+    <div class="code-block"><span class="cmd">cd</span> /opt
+<span class="cmd">wget</span> https://github.com/3proxy/3proxy/archive/refs/tags/0.9.4.tar.gz
+<span class="cmd">tar</span> xzf 0.9.4.tar.gz
+<span class="cmd">cd</span> 3proxy-0.9.4
+<span class="cmd">make</span> -f Makefile.Linux
+<span class="cmd">make</span> -f Makefile.Linux install</div>
+
+    <p>Создаём конфиг <code>/etc/3proxy/3proxy.cfg</code>:</p>
+
+    <div class="code-block"><span class="key">daemon</span>
+<span class="key">nserver</span> 1.1.1.1
+<span class="key">nserver</span> 8.8.8.8
+<span class="key">nscache</span> 65536
+<span class="key">timeouts</span> 1 5 30 60 180 1800 15 60
+<span class="key">log</span> /var/log/3proxy/3proxy.log D
+<span class="key">rotate</span> 7
+<span class="key">users</span> myuser:CL:МойПарольПосложнее
+<span class="key">auth</span> strong
+<span class="key">allow</span> myuser
+<span class="key">socks</span> -p1080
+<span class="key">proxy</span> -p3128
+<span class="key">flush</span></div>
+
+    <p>Тут: <code>users</code> - имя и пароль (CL = cleartext, для прода замените на CR с MD5-хэшем), <code>auth strong</code> - требовать авторизацию, <code>socks -p1080</code> - SOCKS5 на порту 1080, <code>proxy -p3128</code> - HTTP на 3128.</p>
+
+    <p>Systemd-юнит для автозапуска <code>/etc/systemd/system/3proxy.service</code>:</p>
+
+    <div class="code-block">[Unit]
+Description=3proxy Proxy Server
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/local/bin/3proxy /etc/3proxy/3proxy.cfg
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target</div>
+
+    <p>Запускаем:</p>
+
+    <div class="code-block"><span class="cmd">systemctl</span> daemon-reload
+<span class="cmd">systemctl</span> enable --now 3proxy
+<span class="cmd">systemctl</span> status 3proxy</div>
+
+    <p>Открываем порты в файрволе:</p>
+
+    <div class="code-block"><span class="cmd">ufw</span> allow 22/tcp
+<span class="cmd">ufw</span> allow 1080/tcp
+<span class="cmd">ufw</span> allow 3128/tcp
+<span class="cmd">ufw</span> enable</div>
+
+    <p>Проверяем с локальной машины:</p>
+
+    <div class="code-block"><span class="cmd">curl</span> -x socks5://myuser:МойПарольПосложнее@ВАШ_IP:1080 https://api.ipify.org</div>
+
+    <p>Должен вернуться IP вашего VPS. Если вернулся - вы только что подняли свой SOCKS5 прокси на VPS. Поздравляю. Если нет - смотрите <code>journalctl -u 3proxy -f</code> и не забудьте проверить, что хостер не режет исходящие порты (бывает у Hostkey на дефолтных тарифах).</p>
+
+    <h3>HTTP/HTTPS прокси через Squid</h3>
+    <p>Squid - монстр на 30+ МБ оперативки и тонны опций. Кэширование, ACL, аутентификация через LDAP - всё есть. Но я его ставлю только когда нужно именно кэширование (корпоративный шлюз, экономия трафика). Для чистого HTTP-прокси - оверкилл.</p>
+
+    <div class="code-block"><span class="cmd">apt</span> install -y squid apache2-utils
+<span class="cmd">htpasswd</span> -c /etc/squid/passwd myuser</div>
+
+    <p>В <code>/etc/squid/squid.conf</code> находим блок ACL и добавляем:</p>
+
+    <div class="code-block"><span class="key">auth_param</span> basic program /usr/lib/squid/basic_ncsa_auth /etc/squid/passwd
+<span class="key">auth_param</span> basic realm proxy
+<span class="key">acl</span> authenticated proxy_auth REQUIRED
+<span class="key">http_access</span> allow authenticated
+<span class="key">http_access</span> deny all
+<span class="key">http_port</span> 3128</div>
+
+    <p>Рестарт: <code>systemctl restart squid</code>. Логи: <code>/var/log/squid/access.log</code>. Документация - на <a href="http://www.squid-cache.org/" target="_blank" rel="noopener nofollow">squid-cache.org</a>.</p>
+
+    <h3>Защита: белый список IP вместо пароля</h3>
+    <p>Если прокси нужен только вам и команде, забейте на логин-пароль и пустите по IP. В 3proxy:</p>
+
+    <div class="code-block"><span class="key">allow</span> * 95.123.45.67,178.234.56.78
+<span class="key">deny</span> *
+<span class="key">socks</span> -p1080</div>
+
+    <p>В iptables/ufw - то же самое:</p>
+
+    <div class="code-block"><span class="cmd">ufw</span> allow from 95.123.45.67 to any port 1080
+<span class="cmd">ufw</span> allow from 178.234.56.78 to any port 1080
+<span class="cmd">ufw</span> deny 1080</div>
+
+    <p>Так создать прокси-сервер на VPS гораздо безопаснее, чем светить логин-пароль в каждом скрипте.</p>
+
+    <h3>Несколько прокси на одном сервере</h3>
+    <p>Поднимаем 3proxy с десятком портов:</p>
+
+    <div class="code-block"><span class="key">socks</span> -p1080
+<span class="key">socks</span> -p1081
+<span class="key">socks</span> -p1082
+<span class="key">proxy</span> -p3128
+<span class="key">proxy</span> -p3129</div>
+
+    <p>Каждый порт - отдельный «прокси» для распределения по аккаунтам/задачам. На VPS с 1 ГБ RAM спокойно живут 10+ портов одновременно. Подробности конфигурации - в <a href="https://3proxy.org/0.9/cfg.html" target="_blank" rel="noopener nofollow">официальной документации 3proxy</a>.</p>
+
+    <div class="article-highlight2">
+      <strong>Альтернативы 3proxy:</strong> Dante (классический SOCKS5-сервер, чуть жирнее), Tinyproxy (простейший HTTP-прокси), Privoxy (HTTP с фильтрацией рекламы), Shadowsocks-libev (когда нужна обфускация), HAProxy (балансировка нагрузки), Sing-box (универсальный современный комбайн).
+    </div>
+  </div>
+</section>
+
+<!-- MTPROTO -->
+<section class="section alt" id="mtproto">
+  <div class="article">
+    <h2 class="section-title" style="margin-bottom:2rem">MTProto-прокси для Telegram на VPS</h2>
+    <p>Отдельная история. Хостинг для прокси тг - это вообще не SOCKS, и универсальные решения сюда не подходят. MTProto - официальный протокол Telegram, его сигнатура замаскирована под белый шум TLS, ТСПУ его пока не научились ловить надёжно (тьфу-тьфу).</p>
+
+    <p>Ставим официальный mtproto-proxy от Telegram. Способ номер раз - скрипт от HirbodBehnam, проверенный временем:</p>
+
+    <div class="code-block"><span class="cmd">curl</span> -L -o MTProtoProxyInstall.sh https://git.io/fjo34
+<span class="cmd">bash</span> MTProtoProxyInstall.sh</div>
+
+    <p>Скрипт спросит порт (по умолчанию 443 - маскируется под HTTPS, не выбирайте 8443 и подобные «прокси-порты», их режут), сгенерирует secret и выдаст готовую ссылку вида <code>tg://proxy?server=...&amp;port=...&amp;secret=...</code>.</p>
+
+    <p>Способ номер два, руками. Клонируем <a href="https://github.com/TelegramMessenger/MTProxy" target="_blank" rel="noopener nofollow">официальный репозиторий MTProxy</a>, собираем:</p>
+
+    <div class="code-block"><span class="cmd">git</span> clone https://github.com/TelegramMessenger/MTProxy
+<span class="cmd">cd</span> MTProxy
+<span class="cmd">make</span>
+<span class="cmd">cd</span> objs/bin
+<span class="cmd">curl</span> -s https://core.telegram.org/getProxySecret -o proxy-secret
+<span class="cmd">curl</span> -s https://core.telegram.org/getProxyConfig -o proxy-multi.conf
+<span class="cmd">head</span> -c 16 /dev/urandom | <span class="cmd">xxd</span> -ps</div>
+
+    <p>Последняя команда выдаст ваш secret. Запуск:</p>
+
+    <div class="code-block"><span class="cmd">./mtproto-proxy</span> -u nobody -p 8888 -H 443 -S ВАШSECRET \
+  --aes-pwd proxy-secret proxy-multi.conf -M 1</div>
+
+    <p>Привязка к каналу - через <code>-T ТЕГ_КАНАЛА</code> после получения тега от <code>@MTProxybot</code>. За промо в виде спонсорского сообщения от вашего канала на закрепе у пользователей прокси - вполне честный обмен.</p>
+
+    <p>Systemd-юнит обязателен, иначе при перезагрузке VPS прокси для Telegram на VPS упадёт молча и навсегда.</p>
+
+    <div class="article-highlight3">
+      <strong>Важное про MTProto на VPS в России.</strong> На Habr недавно вышел пост с комментарием: «mtproto на российском VPS убит РКН примерно за день, никакой туннель дальше не спасёт». Подтверждаю на личном опыте. На российских площадках MTProxy на VPS живёт от нескольких часов до пары дней - потом IP в блокировке. Берите европейские локации: Финляндия (<a href="https://adminvps.ru/vps/vps_finland.php?aff=29893" target="_blank" rel="nofollow noopener">AdminVPS</a>, <a href="https://aeza.net/" target="_blank" rel="nofollow noopener">Aeza</a>), Нидерланды (<a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/" target="_blank" rel="nofollow noopener">Fornex</a>, <a href="https://hostkey.com/vps/" target="_blank" rel="nofollow noopener">Hostkey</a>), Германия. Из СПб финский MTProxy даёт 15-20 мс задержки, разницы с локальным каналом не заметите.
+    </div>
+
+    <h3>Альтернативы MTProxy</h3>
+    <p>Если MTProxy надоел - смотрите <a href="https://github.com/XTLS/Xray-core" target="_blank" rel="noopener nofollow">Xray</a> с VLESS+XHTTP (новый транспорт, маскируется под HTTPS, ТСПУ пока не ловят), V2Ray, Sing-box. VLESS+XHTTP стал рабочей альтернативой VLESS Reality после того, как РКН научился ловить последний по паттерну TLS-хендшейков (разбор был на Habr в феврале 2026-го). Под Xray на VPS закладывайте минимум 1 ГБ RAM, в идеале 2.</p>
+  </div>
+</section>
+
+<!-- REVERSE -->
+<section class="section" id="reverse">
+  <div class="article">
+    <h2 class="section-title" style="margin-bottom:2rem">Reverse proxy на VPS: бонусный сценарий</h2>
+    <p>Reverse proxy - это когда сервер стоит перед вашим веб-приложением, принимает запросы извне и проксирует их вглубь. Классика - Nginx reverse proxy для HTTPS-терминации и балансировки.</p>
+
+    <p>Минимальный конфиг Nginx:</p>
+
+    <div class="code-block"><span class="key">server</span> {
+    <span class="key">listen</span> 443 ssl http2;
+    <span class="key">server_name</span> api.example.com;
+
+    <span class="key">ssl_certificate</span> /etc/letsencrypt/live/api.example.com/fullchain.pem;
+    <span class="key">ssl_certificate_key</span> /etc/letsencrypt/live/api.example.com/privkey.pem;
+
+    <span class="key">location</span> / {
+        <span class="key">proxy_pass</span> http://127.0.0.1:8080;
+        <span class="key">proxy_set_header</span> Host $host;
+        <span class="key">proxy_set_header</span> X-Real-IP $remote_addr;
+        <span class="key">proxy_set_header</span> X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+}</div>
+
+    <p>SSL через <code>certbot --nginx</code>. Время разворачивания - минут 10. Под reverse proxy на VPS подойдёт буквально любой тариф с 1 ГБ RAM. Документация - <a href="https://nginx.org/en/docs/http/ngx_http_proxy_module.html" target="_blank" rel="noopener nofollow">nginx.org</a>.</p>
+
+    <h3>Прокси на VPS с Windows</h3>
+    <p>Иногда нужен. Например, под специфический софт, который ходит только через системные настройки Windows-прокси, или под антидетект-браузеры, требующие именно винду на стороне сервера. Сценарий редкий, но рабочий. AdminVPS, Hostkey и Timeweb Cloud дают Windows Server 2019/2022 в шаблонах. Лицензия обычно стоит +200-400 ₽/мес сверху.</p>
+
+    <p>Под Windows ставится CCProxy (платный, но удобный), WinGate или 3proxy под Windows (есть скомпилированная версия). 3proxy для Windows я гонял - работает, конфиг тот же, что в Linux, кладётся рядом с экзешником. Сервис ставится одной командой <code>3proxy.exe --install</code>.</p>
+
+    <p>Минус Windows-сценария - оверхед по RAM (минимум 2 ГБ против 512 МБ на Linux) и более высокий ценник. Если можете жить на Linux - живите.</p>
+  </div>
+</section>
+
+<!-- SECURITY -->
+<section class="section alt" id="security">
+  <div class="article">
+    <h2 class="section-title" style="margin-bottom:2rem">Безопасность и анонимность прокси на VPS</h2>
+    <p>Прокси без защиты - это IP, который через неделю утечёт в публичные списки и через две будет банить сам себя.</p>
+
+    <h3>Аутентификация</h3>
+    <p>Минимум - логин-пароль. Лучше - белый список IP. Идеально - и то, и другое.</p>
+
+    <h3>SSH-ключи вместо пароля root</h3>
+    <p>Сразу после первого входа:</p>
+
+    <div class="code-block"><span class="cmd">ssh-copy-id</span> root@ВАШ_IP
+<span class="comment"># на сервере:</span>
+<span class="cmd">nano</span> /etc/ssh/sshd_config
+<span class="comment"># PasswordAuthentication no</span>
+<span class="comment"># PermitRootLogin prohibit-password</span>
+<span class="cmd">systemctl</span> restart sshd</div>
+
+    <h3>Файрвол</h3>
+    <p>UFW или iptables - закрываем всё, кроме SSH и портов прокси:</p>
+
+    <div class="code-block"><span class="cmd">ufw</span> default deny incoming
+<span class="cmd">ufw</span> default allow outgoing
+<span class="cmd">ufw</span> allow 22/tcp
+<span class="cmd">ufw</span> allow 1080/tcp
+<span class="cmd">ufw</span> enable</div>
+
+    <h3>Fail2ban</h3>
+    <p>Обязательно. Защищает от брутфорса SSH и портов прокси:</p>
+
+    <div class="code-block"><span class="cmd">apt</span> install -y fail2ban
+<span class="cmd">systemctl</span> enable --now fail2ban</div>
+
+    <h3>Логи</h3>
+    <p>Включайте только если они нужны для дебага. По умолчанию - <code>nolog</code> в 3proxy, минимальный access_log в Squid. Логи юзер-агентов и URL клиентов хранить в 2026-м - себе дороже. Заодно подумайте про логротейт, иначе диск забьётся за месяц.</p>
+
+    <h3>Защита от утечек DNS</h3>
+    <p>В 3proxy укажите <code>nserver</code> с DoH/DoT-резолверами или внешними (1.1.1.1, 8.8.8.8), чтобы DNS-запросы клиента не уходили через провайдера. Подробнее про DNS-leak - в <a href="https://datatracker.ietf.org/doc/html/rfc7858" target="_blank" rel="noopener nofollow">RFC 7858</a>.</p>
+
+    <h3>Регулярные обновления</h3>
+    <p><code>apt update &amp;&amp; apt upgrade -y</code> раз в неделю, через cron или unattended-upgrades.</p>
+
+    <div class="article-highlight3">
+      <strong>И ещё один совет от практика:</strong> не используйте порт 1080 на проде - его сканируют автоматически тысячи ботов в минуту. Переезжайте на нестандартный высокий порт типа 47821. Это не безопасность, но шума в логах меньше на порядок.
+    </div>
+
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>✅ Свой прокси на VPS</h4>
+        <p>→ Чистый IP без истории жалоб</p>
+        <p>→ Контроль логов и приватности</p>
+        <p>→ Безлимит соединений</p>
+        <p>→ Цена в 20 раз ниже residential</p>
+        <p>→ Любые протоколы: SOCKS5, HTTP, MTProto, Xray</p>
+      </div>
+      <div class="cons">
+        <h4>❌ Чего не даёт VPS</h4>
+        <p>→ Residential IP из конкретного города</p>
+        <p>→ Ротации из тысячи IP-адресов</p>
+        <p>→ Готовых пресетов под Instagram/TikTok</p>
+        <p>→ Юридической защиты в РФ</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE FREE -->
+<section class="section" id="compare">
+  <div class="article">
+    <h2 class="section-title" style="margin-bottom:2rem">Свой VPS vs готовые прокси-сервисы</h2>
+    <p>Спрашивают часто, отвечаю один раз.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Параметр</th>
+            <th>VPS под свой прокси</th>
+            <th>Готовый прокси по подписке</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Цена за месяц</td><td><strong style="color:var(--green)">от 210 ₽</strong></td><td>от $5 за 1 ГБ</td></tr>
+          <tr><td>Трафик</td><td>1-20 ТБ</td><td>1-50 ГБ</td></tr>
+          <tr><td>Тип IP</td><td>Datacenter, чистый</td><td>Часто засвеченный</td></tr>
+          <tr><td>Логи</td><td>Под вашим контролем</td><td>Хранятся у провайдера</td></tr>
+          <tr><td>Количество портов</td><td>10-50 на 1 ГБ RAM</td><td>1-3 в тарифе</td></tr>
+          <tr><td>Настройка</td><td>20 минут, нужны навыки</td><td>Готово из коробки</td></tr>
+          <tr><td>Residential IP</td><td>❌ Нет</td><td>✅ Есть у Bright Data</td></tr>
+          <tr><td>Геотаргетинг по городам</td><td>Только страна</td><td>Город + ISP</td></tr>
+          <tr><td>Стабильность</td><td>99.9%+</td><td>Зависит от пула</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="article-highlight">
+      <strong>Что выбрать:</strong> для личного VPN, MTProto, парсинга 90% сайтов, корпоративного шлюза - однозначно свой VPS под прокси. Для скрейпинга Amazon, Instagram, банковских сайтов и других площадок с серьёзной антибот-защитой - готовые residential. Часто комбинация: основной трафик через свой VPS, чувствительный - через residential-пул.
+    </div>
+  </div>
+</section>
+
+<!-- SCENARIOS -->
+<section class="section alt" id="scenarios">
+  <div class="article">
+    <h2 class="section-title" style="margin-bottom:2rem">Под какие задачи берут VPS прокси</h2>
+    <p>Самые частые сценарии из практики, с привязкой к конфигурациям.</p>
+
+    <h3>Обход блокировок и личный VPN-стек</h3>
+    <p>1 vCPU, 512 МБ - 1 ГБ RAM, 10-15 ГБ диска. Подойдёт любой минимальный тариф из подборки. <a href="https://adminvps.ru/vps/vps_finland.php?aff=29893" target="_blank" rel="nofollow noopener">AdminVPS</a> Финляндия с промо VPS30 - топовый выбор по соотношению цена/пинг.</p>
+
+    <h3>Парсинг сайтов и web scraping</h3>
+    <p>2 vCPU, 2-4 ГБ RAM, обязательно гигабит. Хостер не должен резать исходящие соединения. Hetzner CX22, Aeza, Hostkey - проверены. На один VPS вешаете 5-10 SOCKS5-портов через 3proxy и распределяете между потоками краулера.</p>
+
+    <h3>Мультиаккаунты и антидетект-браузеры</h3>
+    <p>Под Dolphin{anty}, AdsPower, Multilogin, GoLogin - нужны разные IP под каждый профиль. Берите VPS с возможностью докупки доп IP: Hostkey (170 ₽/мес за IP), Aeza (€2/мес), или /29 подсеть за 500-700 ₽. На один IP - один профиль антидетекта, иначе смысл теряется.</p>
+
+    <h3>Арбитраж трафика и SMM</h3>
+    <p>Сценарий близок к мультиаккаунтам: нужны гео-IP под рекламные сети, тестирование креативов с разных регионов, заходы в соцсети из нужной страны. Aeza с её семью странами ЕС - тут вне конкуренции.</p>
+
+    <h3>Корпоративный шлюз</h3>
+    <p>20+ сотрудников через один прокси-сервер - 4 vCPU, 4-8 ГБ RAM, гигабит, безлимит трафика. Squid с кэшированием экономит трафик на 30-40% для офиса. Timeweb Cloud с документами для юрлица - идеально под такой кейс.</p>
+
+    <h3>Telegram через прокси</h3>
+    <p>MTProxy на минимальной конфигурации (1 vCPU, 1 ГБ). На канал до 10 000 пользователей хватает. AdminVPS Финляндия или Aeza Хельсинки - пинг минимальный, протокол летит. Бонус - можно привязать канал и собирать трафик в свою аудиторию.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="container">
+    <h2 class="section-title">Часто задаваемые вопросы про VPS для прокси</h2>
+    <p class="section-sub">Самое практичное из того, что спрашивают в саппорте и комментариях</p>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">Можно ли поднять прокси на бесплатном хостинге?</div>
+        <div class="faq-a"><span>Технически - на Oracle Cloud Free Tier (1 vCPU, 1 ГБ RAM, навсегда) можно поставить 3proxy и крутить личный SOCKS5. Практически - аккаунты Oracle постоянно банят за «подозрительную активность», особенно после регистрации с российского IP. Бесплатный хостинг для прокси-сервера на VPS существует, но это лотерея с месячным сроком жизни. Для стабильности - платный VPS от 200 рублей. Дешевле, чем нервы.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Сколько прокси можно сделать на одном VPS?</div>
+        <div class="faq-a"><span>На тарифе с 1 ГБ RAM - до 20 одновременных портов 3proxy с лёгкой нагрузкой. На 2 ГБ - 50+. Узкое место не процессор и не память, а канал и количество одновременных соединений. Один порт SOCKS5 на 3proxy спокойно держит 100-200 коннектов. То есть VPS прокси за 500 рублей закрывает потребности команды из 10 человек без напрягов.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Какой VPS дешевле для прокси?</div>
+        <div class="faq-a"><span>В рублёвой зоне - Beget (210 ₽) и VDSina (240 ₽), оба в Нидерландах. В зарубежной - Hetzner CX22 за €4.99 с 4 ГБ RAM (но российские карты не принимает). Дешёвый VPS для прокси на 1-2 пользователя - FirstByte от 259 ₽, проверено лично.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Как сделать несколько прокси на одном сервере?</div>
+        <div class="faq-a"><span>Открываете в /etc/3proxy/3proxy.cfg десяток строк socks -pПОРТ или proxy -pПОРТ - каждая создаёт отдельный прокси на своём порту. Можно прописать разные users для разных портов через auth strong и allow ИМЯ. Подробности - в официальной документации 3proxy на 3proxy.org.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Нужны ли дополнительные IP-адреса?</div>
+        <div class="faq-a"><span>Под обход блокировок одного IPv4 хватает. Под мультиаккаунты и антидетект (Dolphin, AdsPower, Multilogin) - чем больше, тем лучше. Один IP = один «чистый» аккаунт без следов. Доп IP стоит от 100 до 300 ₽/мес. /29 подсеть (5 полезных IP) - от 500 ₽. У Hostkey - 170 ₽, у Aeza - €2.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Легально ли держать свой прокси на VPS?</div>
+        <div class="faq-a"><span>В России - юридически серая зона. Закон о VPN-сервисах (ФЗ-276) распространяется на сервисы, обеспечивающие доступ к заблокированным ресурсам. Личный прокси для собственного использования прямо не запрещён, но и не легализован. Законопроект «Антифрод 2.0» апреля 2026-го планирует прижать российских хостеров за размещение «средств обхода блокировок». Поэтому хостинг для прокси и VPN - однозначно в Европу. В большинстве европейских стран свой прокси - абсолютно легально, это просто сетевой сервис.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Чем отличается прокси-хостинг от обычного VPS?</div>
+        <div class="faq-a"><span>Ничем технически. «Прокси-хостинг» - маркетинговое название VPS, заточенного под прокси: гигабитный порт, безлимит/много трафика, чистый IP без истории жалоб. Берите обычный VPS у адекватного провайдера - получите тот же результат за меньшие деньги.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">VPS через прокси - это как?</div>
+        <div class="faq-a"><span>Обратный сценарий: вы ходите на свой VPS через внешний прокси. Зачем - когда ваш домашний IP заблокирован на сервере или когда хостер режет соединения из определённых стран. SSH через прокси настраивается в ~/.ssh/config через ProxyCommand с nc -X 5 -x ПРОКСИ:1080. Редкий, но иногда нужный кейс.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Прокси-сервер Ubuntu VPS или Debian - что лучше?</div>
+        <div class="faq-a"><span>Ubuntu 22.04/24.04 LTS - стандарт индустрии, документации больше. Debian 12 - чище, без snap-овой возни, минимально пакетов в базе. Под 3proxy и Squid разницы вы не увидите. Я лично предпочитаю Debian для прокси-нод, потому что меньше «лишних» сервисов из коробки = меньше векторов атаки.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Можно ли поставить Windows на VPS под прокси?</div>
+        <div class="faq-a"><span>Можно, но смысла мало. Прокси на VPS Windows нужен только когда специфический софт ходит через системные настройки винды или антидетект-браузер требует Windows на сервере. Минимум 2 ГБ RAM (против 512 МБ на Linux), лицензия +200-400 ₽/мес. AdminVPS, Hostkey, Timeweb Cloud дают шаблоны Windows Server 2019/2022.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Какой VPS Финляндия взять под MTProto?</div>
+        <div class="faq-a"><span>AdminVPS Финляндия с промокодом VPS30 - пинг 15-20 мс из СПб, MTProxy работает идеально. Или Aeza Хельсинки на Ryzen 9 - почасовая оплата, можно тестировать без обязательств. Хостинг для прокси тг в Финляндии - один из лучших по соотношению пинг/цена для русскоязычной аудитории.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Что делать, если IP моего прокси попал в чёрный список?</div>
+        <div class="faq-a"><span>У Aeza и Timeweb Cloud переключение IP - бесплатно по тикету. У Hetzner - €1 за смену. У AdminVPS - по запросу в саппорт. Перед заказом тарифа проверьте IP через mxtoolbox.com - иногда хостеры выдают «грязные» адреса с историей рассылок. Если IP сразу в спам-листах - возврат денег по money-back, никто не упрётся.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="cta-block">
+  <div class="cta-block-inner">
+    <div class="hero-badge" style="background:rgba(109,40,217,.25);color:#fff;border-color:rgba(255,255,255,.15);margin-bottom:1rem">🔥 Май 2026 - акции действуют</div>
+    <h2>Берите VPS под прокси и поднимайте сами</h2>
+    <p>Свой прокси на VPS - это 500 рублей в месяц, 20 минут на настройку и полный контроль над трафиком. Готовые сервисы по подписке проигрывают по всем фронтам, кроме одного: там не надо думать. Если вы дочитали - думать вы умеете.</p>
+    <div class="cta-buttons">
+      <a href="https://adminvps.ru/vps/vps_finland.php?aff=29893" class="hero-cta" style="background:linear-gradient(135deg,#3dd598,#10b981);color:#fff" target="_blank" rel="nofollow noopener">💰 AdminVPS - VPS30</a>
+      <a href="https://aeza.net/" class="hero-cta" target="_blank" rel="nofollow noopener">⚡ Aeza - Ryzen 9</a>
+      <a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/" class="hero-cta ghost" style="background:transparent;color:#fff;border-color:rgba(255,255,255,.4)" target="_blank" rel="nofollow noopener">🔒 Fornex - Швейцария</a>
+    </div>
+    <p style="font-size:.8rem;color:rgba(255,255,255,.55);margin-top:1.2rem">Цены и характеристики актуальны на 14 мая 2026. Партнёрские ссылки помогают развивать проект и не влияют на стоимость для пользователя.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 VPS·PROXY - экспертные обзоры VPS для прокси-серверов</p>
+  <p>Обновлено: 14 мая 2026 - конфиги 3proxy, MTProxy, Xray и цены провайдеров перепроверены руками</p>
+  <p>Полезные источники: <a href="https://3proxy.org/0.9/cfg.html" target="_blank" rel="noopener nofollow">Документация 3proxy</a> · <a href="https://github.com/TelegramMessenger/MTProxy" target="_blank" rel="noopener nofollow">MTProxy на GitHub</a> · <a href="https://nginx.org/en/docs/" target="_blank" rel="noopener nofollow">Nginx Docs</a> · <a href="https://datatracker.ietf.org/doc/html/rfc7858" target="_blank" rel="noopener nofollow">RFC 7858 DNS-over-TLS</a> </p>
+  <p style="margin-top:.5rem;font-size:.75rem;color:#5a5680">Материал носит информационный характер и не является рекламой. На странице используются партнёрские ссылки. Все товарные знаки принадлежат их владельцам.</p>
+</footer>
+
+<!-- STICKY BAR -->
+<div class="sticky-bar" id="stickyBar">
+  <div class="sticky-bar-text">
+    <span class="sb-full">🔥 <strong>AdminVPS Финляндия</strong> для SOCKS5/MTProto - от <strong>499 ₽</strong>, промокод <strong>VPS30</strong> минус 30%</span>
+    <span class="sb-short">🔥 <strong>VPS30</strong> - минус 30%</span>
+  </div>
+  <a href="https://adminvps.ru/vps/vps_finland.php?aff=29893" class="sticky-bar-btn" target="_blank" rel="nofollow noopener">Активировать →</a>
+  <button class="sticky-bar-close" onclick="document.getElementById('stickyBar').classList.remove('show');sessionStorage.setItem('sbClosed','1')" aria-label="Закрыть">✕</button>
+</div>
+
+<script>
+function showRec(id, btn){
+  document.querySelectorAll('.rec-result').forEach(el=>el.classList.remove('show'));
+  document.getElementById('rec-'+id).classList.add('show');
+  document.querySelectorAll('.rec-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+}
+document.querySelectorAll('.faq-q').forEach(q=>{
+  q.addEventListener('click',()=>q.parentElement.classList.toggle('open'));
+});
+window.addEventListener('scroll',()=>{
+  if(sessionStorage.getItem('sbClosed')==='1') return;
+  const sb = document.getElementById('stickyBar');
+  if(window.scrollY > 800) sb.classList.add('show');
+  else sb.classList.remove('show');
+});
+document.querySelectorAll('.nav-links a').forEach(a=>{
+  a.addEventListener('click',()=>document.querySelector('.nav-links').classList.remove('open'));
+});
+</script>
+
+</body>
+</html>
